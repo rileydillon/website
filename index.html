@@ -3,14 +3,107 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>rileydillon</title>
-    <link href=dist/static/css/app.5bc096074e88ede1003d05d0614ce9a6.css rel=stylesheet>
+    <title>CPSC 314</title>
+
+    <style>
+      body {
+        margin: 0;
+      }
+      #app {
+        font-family: 'Avenir', Helvetica, Arial, sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        text-align: center;
+        color: #2c3e50;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+      }
+      .site-container {
+        margin: 0 auto;
+        width: 100%;
+        height: 100%;
+        max-width: 1024px;
+      }
+      h1, h2, h3 {
+        font-weight: normal;
+      }
+      .web-dev {
+        padding: 0 20px;
+      }
+      .sub-text {
+        font-size: 20px;
+      }
+      .title {
+        font-size: 24px;
+        text-align: left;
+      }
+      .text {
+        font-size: 18px;
+        padding-left: 20px;
+        text-align: left;  
+      }
+      .link {
+        font-size: 20px;
+        color: #2c87aa;
+        cursor: pointer;
+        text-decoration: none;
+      }
+      .link:hover, .percent {
+        font-weight: bold;
+      }
+      @media only screen and (max-width: 768px) {
+        h1 {
+          font-size: 26px;
+        }
+        .web-dev {
+          padding: 0 10px;
+        }
+        .sub-text {
+        font-size: 14px;
+      }
+      .title {
+        font-size: 22px;
+        text-align: left;
+      }
+      .text {
+        font-size: 12px;
+        padding-left: 10px;
+      }
+      .link {
+        font-size: 14px;
+      }
+    }
+    </style>
   </head>
   <body>
-    <script type=text/javascript src=dist/static/js/manifest.231ed7aaba0ef98ab515.js></script>
-    <script type=text/javascript src=dist/static/js/vendor.8a77009b01349a3cd0d1.js></script>
-    <script type=text/javascript src=dist/static/js/app.fa6b59d210e8985c3f4d.js></script>  
-    <div id="app"></div>
-    <!-- built files will be auto injected -->
+    <div id="app">
+      <div class="site-container">
+        <div class="web-dev">
+          <h1>CPSC 314 - Web Development</h1>
+          <div class="sub-text">Riley Dillon</div>
+          <a href="mailto:dillonr@gonzaga.edu" class="sub-text link">dillonr@gonzaga.edu</a>    
+          <div class="sub-text">Paccar 107 T/Th 4:40-6PM</div>
+          <p>
+            <div class="title">Description</div>
+            <div class="text">This course provides an overview of website development. Students will learn how the various features, including HTML5, CSS, JavaScript, Ajax, multimedia, HTTP, clients, servers, and databases, function together in today's web environment. The course will provide a web development foundation focusing on content and client-side components, with an overview of the server-side technologies. In addition, software and services that are easily incorporated into a website, for example, maps and content management, will be discussed and frontend frameworks will be introduced.</div>
+          <p>
+          <div class="title">Grading</div>
+          <div class="text">
+            <span class="percent">35%</span>&nbsp;Assignments     
+          </div>
+          <div class="text">
+            <span class="percent">15%</span>&nbsp;Quizzes     
+          </div>
+          <div class="text">
+            <span class="percent">20%</span>&nbsp;Project     
+          </div>
+          <div class="text">
+            <span class="percent">30%</span>&nbsp;Exams     
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
+  
